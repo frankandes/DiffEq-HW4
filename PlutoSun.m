@@ -5,7 +5,7 @@ colordef black
 G=6.673e-11; % universal graviational constant
 m=1989100e24; % mass of the sun
 
-dt=10*24*60*60; %time-step in seconds
+dt=25*24*60*60; %time-step in seconds
 T=100*365*24*60*60; %duration in seconds
 t=0:dt:T; x=t; y=t; Vx=t; Vy=t; %preallocate
 
